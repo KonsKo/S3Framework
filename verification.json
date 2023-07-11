@@ -1,0 +1,48 @@
+[
+  {
+    "name": "aws",
+    "required": false,
+    "helper": "https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html"
+  },
+  {
+    "name": "wrk",
+    "required": false,
+    "helper": "`apt-get install -y wrk` or visit https://github.com/wg/wrk"
+  },
+  {
+    "name": "s3cmd",
+    "required": false,
+    "helper": "`sudo apt-get install s3cmd` or visit https://s3tools.org/s3cmd"
+  },
+  {
+    "name": "warp",
+    "required": false,
+    "helper": "visit https://github.com/minio/warp"
+  },
+  {
+    "name": "sqlite3",
+    "required": false,
+    "helper": "sudo apt install sqlite3"
+  },
+  {
+    "name": "docker",
+    "required": false,
+    "helper": "visit https://docs.docker.com/desktop/install/ubuntu/"
+  },
+  {
+    "name": "docker-compose",
+    "required": false,
+    "helper": "visit https://docs.docker.com/compose/install/linux/"
+  },
+  {
+    "name": "hadoop",
+    "path": "/usr/local/hadoop/bin/hadoop",
+    "required": false,
+    "helper": "visit https://dlcdn.apache.org/hadoop/common/"
+  },
+    {
+    "name": "wine",
+    "required": false,
+    "helper": "sudo apt-get install wine64"
+  }
+]

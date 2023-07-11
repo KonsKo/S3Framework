@@ -1,0 +1,38 @@
+{
+  "repetitions": 300,
+  "display_info": true,
+  "clients_ca_cert": "root.crt",
+  "aws_config": "conf_aws",
+  "s3cmd_config": "conf_s3cmd",
+  "show_requests_info": false,
+  "join_server_log": true,
+  "do_clean_up": true,
+
+  "tests": {
+    "results": "",
+    "verbosity": 7
+  },
+
+  "db": {
+    "db_name": "framework_db_v1.db"
+  },
+
+  "servers3": {
+    "src": "",
+    "listen_address": "127.0.0.1",
+    "listen_port": "8000",
+    "tls_cert": "root.crt",
+    "tls_key": "root.key",
+    "no_tls": false,
+    "no_keepalive": false,
+    "background": false,
+    "log": "s3.log",
+    "cpuset": "",
+    "s3root": "/s3",
+    "verbose": true,
+    "hosts": ["localhost"],
+
+    "compose_file": "",
+    "compose_service": ""
+  }
+}

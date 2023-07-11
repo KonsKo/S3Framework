@@ -1,0 +1,53 @@
+[profile _default]
+max_attempts=1
+read_timeout=1
+connect_timeout=1
+metadata_service_timeout=0
+metadata_service_num_attempts=0
+parameter_validation = false
+aws_access_key_id =
+aws_secret_access_key =
+s3 =
+    signature_version = s3v4
+
+
+[profile _second_user]
+max_attempts=1
+read_timeout=1
+connect_timeout=1
+metadata_service_timeout=0
+metadata_service_num_attempts=0
+parameter_validation = false
+aws_access_key_id =
+aws_secret_access_key =
+s3 =
+    signature_version = s3v4
+
+
+[profile _not_existent_user]
+aws_access_key_id =
+aws_secret_access_key =
+s3 =
+    signature_version = s3v4
+
+
+[profile aws_real]
+parameter_validation = false
+aws_access_key_id =
+aws_secret_access_key =
+region=us-west-1
+output=json
+
+s3 =
+    signature_version = s3v4
+
+
+[profile aws_real_second]
+parameter_validation = false
+aws_access_key_id =
+aws_secret_access_key =
+region=us-west-1
+output=json
+
+s3 =
+    signature_version = s3v4
