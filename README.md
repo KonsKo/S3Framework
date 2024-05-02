@@ -4,7 +4,8 @@
 
 ---
 
-Instruction was deleted
-Test were deleted
+Instruction was deleted.
 
-Code for informational purposes
+Tests were deleted.
+
+Code is for intriducing purposes.
